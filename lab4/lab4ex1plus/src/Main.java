@@ -11,14 +11,14 @@ public class Main
         {
             System.out.print("Introduceti nota: ");
             nota = scanner.nextInt();
-            k++;
-            if (nota < 10)
+            k++;//incrementezi counterul chiar daca numarul ii bun sau nu
+            if (nota < 10) // conditai ar trebui sa fie nota > 10 || nota < 0
                 System.out.print("Nota invalida! ");
             else
             {
                 if(nota>min)min=nota;
                 if(nota<max)max=nota;
-                medie=nota+medie;
+                medie=nota+medie;//aici calculezi suma nu media
             }
         }
         System.out.print("Numarul de note introduse : "+k+"\n");
