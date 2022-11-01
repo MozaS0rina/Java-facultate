@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main
 {
-    public static void main(String[] args)
+    public static void main(String[] args) // trebuia sa afisezi toate numerele perfecte de la 1 - 1000
     {
         int d,s=1;
         Scanner scanner= new Scanner(System.in);
