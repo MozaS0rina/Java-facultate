@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Main
 {
-    public static void main(String[] args)
+    public static void main(String[] args) // as fi preferat sa folosesti o functie pentru a printa raspunsurile
     {
         //quiz
         Scanner scanner= new Scanner(System.in);
